@@ -1,0 +1,918 @@
+{
+  "reviewed_at": "2026-09-22",
+  "u8g2_revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+  "font_reference": {
+    "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+    "source_path": "csrc/u8g2_fonts.c",
+    "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/csrc/u8g2_fonts.c",
+    "source_sha256": "7f4a716f6a34423a4bd85357ad8844ba70404332be8719408443c5fde589c27e",
+    "font_count": 1689,
+    "semantic_sha256": "4b527be8a473de8b223aa79636fc6c3ff02d97f8325acd1abeec948340374719",
+    "comparison": "Immutable upstream source inventory before the Meshbus WenQuanYi and Unifont exclusions. The retained selection is recorded separately in font_selection."
+  },
+  "font_selection": {
+    "font_count": 1616,
+    "semantic_sha256": "3b2889d563ea805b806a731c1c5d3314fa7401a204dedd9aa012cb10cbd96d27",
+    "excluded_symbol_prefixes": [
+      "u8g2_font_wqy",
+      "u8g2_font_unifont"
+    ],
+    "excluded_font_count": 73,
+    "excluded_groups": [
+      "fntgrpwqy",
+      "fntgrpunifont"
+    ],
+    "comparison": "Every retained symbol, C array byte including NUL, Fontname and Copyright field matches font_reference exactly. No WenQuanYi or Unifont data is included.",
+    "generator": "scripts/import_fonts.py",
+    "declaration_wrap_before_symbol": [
+      "u8g2_font_open_iconic_arrow_1x_t",
+      "u8g2_font_open_iconic_check_1x_t",
+      "u8g2_font_open_iconic_email_1x_t",
+      "u8g2_font_open_iconic_gui_1x_t",
+      "u8g2_font_open_iconic_human_1x_t",
+      "u8g2_font_open_iconic_play_1x_t",
+      "u8g2_font_open_iconic_text_1x_t",
+      "u8g2_font_open_iconic_www_1x_t",
+      "u8g2_font_open_iconic_check_2x_t",
+      "u8g2_font_open_iconic_email_2x_t",
+      "u8g2_font_open_iconic_human_2x_t",
+      "u8g2_font_open_iconic_other_4x_t",
+      "u8g2_font_synchronizer_nbp_tn",
+      "u8g2_font_habsburgchancery_tn",
+      "u8g2_font_lastapprenticethin_tr",
+      "u8g2_font_lucasfont_alternate_tn"
+    ]
+  },
+  "build_tables": [
+    {
+      "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/build.c",
+      "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+      "source_path": "tools/font/build/build.c",
+      "sha256": "cb6ad770acd9431733903a797c7bc036271ecf18c15eb440ed840e3bcb9c13bd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/build.c",
+      "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+      "source_path": "tools/font/build/build.c",
+      "sha256": "0675e408fac4a0d04df410d213789dde617a83b443d8c17ef3fb6658b90ce951"
+    }
+  ],
+  "notices": [
+    {
+      "id": "u8g2-upstream-fntgrpacademiasinica-pre",
+      "sha256": "e42a4ab78e984c63d4076bb15b17bae051d8c4a549313004667473ada7b86755",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpacademiasinica.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpacademiasinica.pre",
+          "sha256": "593683104a7fe63e5fd6e4a55f729da337a569be6bdf08161672c242b9b9b1ad"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpacademiasinica.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpacademiasinica.pre",
+          "sha256": "593683104a7fe63e5fd6e4a55f729da337a569be6bdf08161672c242b9b9b1ad"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpadobex11-pre",
+      "sha256": "f51990f1b43bd1944ab185c4338af61723ce806a415b144fc08ba52256ed3d00",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpadobex11.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpadobex11.pre",
+          "sha256": "f51990f1b43bd1944ab185c4338af61723ce806a415b144fc08ba52256ed3d00"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpadobex11.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpadobex11.pre",
+          "sha256": "f51990f1b43bd1944ab185c4338af61723ce806a415b144fc08ba52256ed3d00"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpangel-pre",
+      "sha256": "920f83968c634d7a57e602402c7ce6315635bf0a26eab5b10e87d72c3b583282",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpangel.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpangel.pre",
+          "sha256": "704168994daee2392e04982a522ae1f8a20fff831798c94f106758c2361cb33b"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpangel.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpangel.pre",
+          "sha256": "704168994daee2392e04982a522ae1f8a20fff831798c94f106758c2361cb33b"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpbitfontmaker2-pre",
+      "sha256": "df1f6e20940f4a33cb9d03ff455cbe8bb2a8e6f65f9c03cc0c612dbf3b80731a",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpbitfontmaker2.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpbitfontmaker2.pre",
+          "sha256": "11c636e22e7752f5e618ea598101d9183e1280fd8a088299fd5082bc39de0873"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-baseline-fntgrpbitfontmaker2-pre",
+      "sha256": "e079ed8be8667707bb178f9915aa31a905cb6b8c361f49844808ff346cbf6816",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpbitfontmaker2.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpbitfontmaker2.pre",
+          "sha256": "c0bdbc298fba4f0e1f51cc2513ececf219ec757d4147c4f86b89617c71259349"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpchristinaneofotistou-pre",
+      "sha256": "d2a813de8c1c345cd8f13702a8d6f6ed11473edb86022a4f873f33eed3541e28",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpchristinaneofotistou.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpchristinaneofotistou.pre",
+          "sha256": "312414b580c94ba5e5b58d8874690989a4de890366cdd38d575994a3375c74ef"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpchristinaneofotistou.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpchristinaneofotistou.pre",
+          "sha256": "312414b580c94ba5e5b58d8874690989a4de890366cdd38d575994a3375c74ef"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpcodeman38-pre",
+      "sha256": "4d39af7ab56b40af97d2e12eff3735a51efa6461e096f6465ca28c4ff9d79509",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpcodeman38.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpcodeman38.pre",
+          "sha256": "9a720b0274b1f7fa28b7ee6c9cf00650e34301bbe52550cdd2c49735206abfa8"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpcodeman38.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpcodeman38.pre",
+          "sha256": "9a720b0274b1f7fa28b7ee6c9cf00650e34301bbe52550cdd2c49735206abfa8"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpcrox-pre",
+      "sha256": "59cb0153a1a41e9f2e9451e0f8cbd69f42e04a4e15b8e4b5edf6293aeff1c695",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpcrox.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpcrox.pre",
+          "sha256": "8fec958cc03017b339f31bd0d3b37d05abc6f095760fc310d1ae9dfc8d556b91"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpcrox.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpcrox.pre",
+          "sha256": "8fec958cc03017b339f31bd0d3b37d05abc6f095760fc310d1ae9dfc8d556b91"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpcu12-pre",
+      "sha256": "f22297c684bde9ab12a59c3c4aace02d343fc25f2da3ec460b854c9553670b4d",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpcu12.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpcu12.pre",
+          "sha256": "2445d53b1b269d4710215d61dbb7c7dfb1770c056899cf2882ab7dabd8380121"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-baseline-fntgrpcu12-pre",
+      "sha256": "8c924f9e7382d6242c5b0237f54c29db6297b4c53c70f8a607514a269654795f",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpcu12.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpcu12.pre",
+          "sha256": "8c924f9e7382d6242c5b0237f54c29db6297b4c53c70f8a607514a269654795f"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpdafont-pre",
+      "sha256": "13d57912428fa4f7acd908199e8c3b1742ecb5da27dff8499e9f98c3e8c23a2e",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpdafont.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpdafont.pre",
+          "sha256": "13d57912428fa4f7acd908199e8c3b1742ecb5da27dff8499e9f98c3e8c23a2e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpdafont.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpdafont.pre",
+          "sha256": "13d57912428fa4f7acd908199e8c3b1742ecb5da27dff8499e9f98c3e8c23a2e"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpefont-pre",
+      "sha256": "dfb673d3014acc0a83d5ef46d677fcf74bb4d9b9af478121c92a2c4d4c594961",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpefont.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpefont.pre",
+          "sha256": "50af247ab405cd99465986c2c0b530ae5223402db2ba7e92d092871879aa035e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpefont.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpefont.pre",
+          "sha256": "50af247ab405cd99465986c2c0b530ae5223402db2ba7e92d092871879aa035e"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpextant-pre",
+      "sha256": "76ad0f3c37ce2a11f758c9131af46d7aaadbfb9103fc00dc865ae8c561da7576",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpextant.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpextant.pre",
+          "sha256": "76ad0f3c37ce2a11f758c9131af46d7aaadbfb9103fc00dc865ae8c561da7576"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-baseline-fntgrpextant-pre",
+      "sha256": "47b623e3939bd23606f01c50b6e675c3f68c80451268d4cf7b8adfb7d7de824b",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpextant.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpextant.pre",
+          "sha256": "47b623e3939bd23606f01c50b6e675c3f68c80451268d4cf7b8adfb7d7de824b"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpfontstruct-pre",
+      "sha256": "9933e9c336d8469cef9c0d5cf1a244297b525cbb5707b99873a874d9596f97dd",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpfontstruct.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpfontstruct.pre",
+          "sha256": "1f45defeac7f9d79e034a975a0aae624a80cf07d9b37ab446cfd87b02d5ed11d"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-baseline-fntgrpfontstruct-pre",
+      "sha256": "4cd0829be06493b3d26e729a84652634d0515e51e3e6e0e2c44fd3cd5b322894",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpfontstruct.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpfontstruct.pre",
+          "sha256": "650a3f5cd0a8cc9edfa73be54a45db3bbea1e5af18ed91224c788131efd25816"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpfreeuniversal-pre",
+      "sha256": "9c06c1f7bcef3d2dd55ff291c75323a04d63307cdc715a45b4fb669948a83278",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpfreeuniversal.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpfreeuniversal.pre",
+          "sha256": "9c06c1f7bcef3d2dd55ff291c75323a04d63307cdc715a45b4fb669948a83278"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpfreeuniversal.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpfreeuniversal.pre",
+          "sha256": "9c06c1f7bcef3d2dd55ff291c75323a04d63307cdc715a45b4fb669948a83278"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpgeoff-pre",
+      "sha256": "743a11dd54a1c33674e40a4aff6a598a17349b6495a7c34701e29b43517a30e0",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpgeoff.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpgeoff.pre",
+          "sha256": "82f1725ce5273d2092df93a378a787a913d4e6ad591c7bede77865cfd6a58b10"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-baseline-fntgrpgeoff-pre",
+      "sha256": "1af195dbcf8b0b59f7070fce328394663c6d56f9b503357fc62168dce0a93145",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpgeoff.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpgeoff.pre",
+          "sha256": "bd4bfb34604afa3be4170bcff58ea40e979e344ffc12420c27138183c5811e86"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpgilesbooth-pre",
+      "sha256": "6c90fb841a90ea0ab61debfdad46561b8117f2c3c0efba6912417204f67517fe",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpgilesbooth.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpgilesbooth.pre",
+          "sha256": "6e49b05943274b15476cb36ea9534a135f5acacb8894a06ab71478be39e9347c"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpgilesbooth.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpgilesbooth.pre",
+          "sha256": "6e49b05943274b15476cb36ea9534a135f5acacb8894a06ab71478be39e9347c"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpiconic-pre",
+      "sha256": "86868dba8edf3cad647ba35583209b87c697154eb78c032123a2e4d61783336e",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpiconic.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpiconic.pre",
+          "sha256": "d94583687bda7bc248aff3080649e4f84baeac4ff621412c972a3b77a4555134"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpiconic.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpiconic.pre",
+          "sha256": "d94583687bda7bc248aff3080649e4f84baeac4ff621412c972a3b77a4555134"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpinconsolata-pre",
+      "sha256": "5628eaae7c4fcf767f462157eed2a3b14b842dbca49bcf33f31a7606174f5791",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpinconsolata.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpinconsolata.pre",
+          "sha256": "5628eaae7c4fcf767f462157eed2a3b14b842dbca49bcf33f31a7606174f5791"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpinconsolata.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpinconsolata.pre",
+          "sha256": "5628eaae7c4fcf767f462157eed2a3b14b842dbca49bcf33f31a7606174f5791"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpjapanyoshi-pre",
+      "sha256": "11604bb2663bc04f4f768903b3e97339f759ab9b0c858e240649590d8a203c20",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpjapanyoshi.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpjapanyoshi.pre",
+          "sha256": "6811c6bb618dbc93b7f76e0de4674c298226bff4c7906c323b96d45a7e47a44c"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-baseline-fntgrpjapanyoshi-pre",
+      "sha256": "2ac6b54a0142b51ee7821616987f1978f7efe221a61df0eaf10887536f0f3206",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpjapanyoshi.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpjapanyoshi.pre",
+          "sha256": "cda0b84516888b6f6baf1af231cd46f557ae553c43e735c15af0075e60c08043"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpjaywright-pre",
+      "sha256": "83486b307486d42b14eef4ce198ea18499cd8290d72c45827f3611f441f56e6e",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpjaywright.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpjaywright.pre",
+          "sha256": "d29e208549d47547c10cbaa7af6cef2290dc1ad558d1025a6d5e138b74375f7f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpjaywright.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpjaywright.pre",
+          "sha256": "d29e208549d47547c10cbaa7af6cef2290dc1ad558d1025a6d5e138b74375f7f"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpjosephknightcom-pre",
+      "sha256": "9052539a6ce6b5836a4b1678de64d7f7b7acb2796ca7b3c7f7bc42953ef2d06c",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpjosephknightcom.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpjosephknightcom.pre",
+          "sha256": "ebbeba7595f82a5b0a042c7f6272ab21b80d97e363c0dedbf1f140913421f556"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-baseline-fntgrpjosephknightcom-pre",
+      "sha256": "fad34e3f5e8f4b1b60ba3dc133a67211790755bc33e8639acc8c2ff8ccb83757",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpjosephknightcom.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpjosephknightcom.pre",
+          "sha256": "24e129d4e013a6611ae558d2acf26c64623f3e25f680b28793e46046222e4c79"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrplogisoso-pre",
+      "sha256": "f960a5f02e06a05bee3e37b0f06becf652b3dc9de0fda190c89ded720706110e",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrplogisoso.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrplogisoso.pre",
+          "sha256": "f960a5f02e06a05bee3e37b0f06becf652b3dc9de0fda190c89ded720706110e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrplogisoso.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrplogisoso.pre",
+          "sha256": "f960a5f02e06a05bee3e37b0f06becf652b3dc9de0fda190c89ded720706110e"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrplucida-pre",
+      "sha256": "482d029bdab11e6a1202278a82f1415db84af0687cc579ea64f1060dee977272",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrplucida.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrplucida.pre",
+          "sha256": "2b479e809b076eeb4f2d108158210927984e1554cde895d17e0c4b433154a1c3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrplucida.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrplucida.pre",
+          "sha256": "2b479e809b076eeb4f2d108158210927984e1554cde895d17e0c4b433154a1c3"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpmistressellipsis-pre",
+      "sha256": "35f7607d88296f9df8dc2226e6018419aee3745fc81822566efcae0a1cd4a86e",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpmistressellipsis.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpmistressellipsis.pre",
+          "sha256": "95cfc3e38a9f873c28b65b2328d8d4bfa083b8cc8d0c7bd31c7648e2920bb8b5"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-baseline-fntgrpmistressellipsis-pre",
+      "sha256": "91d8cf92953f7fc528d204b987765c6198881d01f53900f9591a8adfef31dbcd",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpmistressellipsis.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpmistressellipsis.pre",
+          "sha256": "eb21c965db90af03db406461f7f51b8064bee61e9dc3f971fb799f6d41a25de0"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpnbp-pre",
+      "sha256": "b586e177cec0d2ca34778f25be0fa233fdd37d56126d59002a37f470ca736106",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpnbp.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpnbp.pre",
+          "sha256": "aa3701d7c0412e096a03f235a655b56e4beabeb6db327268caaf73203bc74581"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpnbp.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpnbp.pre",
+          "sha256": "aa3701d7c0412e096a03f235a655b56e4beabeb6db327268caaf73203bc74581"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpoldschoolpcfonts-pre",
+      "sha256": "4596add54506695744238431ae2e053ab25fa99e192038091519e294ab6fd2ec",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpoldschoolpcfonts.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpoldschoolpcfonts.pre",
+          "sha256": "4596add54506695744238431ae2e053ab25fa99e192038091519e294ab6fd2ec"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpoldschoolpcfonts.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpoldschoolpcfonts.pre",
+          "sha256": "4596add54506695744238431ae2e053ab25fa99e192038091519e294ab6fd2ec"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpoldstandard-pre",
+      "sha256": "e29d210480df87f47fac3fb932a09b26c0183e61a08fa8b606e2d89779fc5bef",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpoldstandard.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpoldstandard.pre",
+          "sha256": "e29d210480df87f47fac3fb932a09b26c0183e61a08fa8b606e2d89779fc5bef"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpoldstandard.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpoldstandard.pre",
+          "sha256": "e29d210480df87f47fac3fb932a09b26c0183e61a08fa8b606e2d89779fc5bef"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpopengameart-pre",
+      "sha256": "f288db03cd28b5d8071f8debf91b4071f0f6e3e5913441a88860fe08a13ddd13",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpopengameart.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpopengameart.pre",
+          "sha256": "f288db03cd28b5d8071f8debf91b4071f0f6e3e5913441a88860fe08a13ddd13"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpopengameart.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpopengameart.pre",
+          "sha256": "f288db03cd28b5d8071f8debf91b4071f0f6e3e5913441a88860fe08a13ddd13"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrppentacom-pre",
+      "sha256": "be57c8213f9b86fbe980e11375385a6e442f09511a6e6dd3dc20fa5b252f748b",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrppentacom.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrppentacom.pre",
+          "sha256": "be57c8213f9b86fbe980e11375385a6e442f09511a6e6dd3dc20fa5b252f748b"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrppersian-pre",
+      "sha256": "fe29ca7a65ac392d3818c8791fafc211a53c291c2a8cdbef78c76e4eac592d09",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrppersian.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrppersian.pre",
+          "sha256": "01c7b037e792f98aa38c01329438b612d17e584d9ab3e1999680a7cd6bbdf24c"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrppersian.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrppersian.pre",
+          "sha256": "01c7b037e792f98aa38c01329438b612d17e584d9ab3e1999680a7cd6bbdf24c"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpprofont-pre",
+      "sha256": "44d32648c184df785787877a0af0e5101a4aed1f7a703729d3f5203965668e8a",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpprofont.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpprofont.pre",
+          "sha256": "44d32648c184df785787877a0af0e5101a4aed1f7a703729d3f5203965668e8a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpprofont.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpprofont.pre",
+          "sha256": "44d32648c184df785787877a0af0e5101a4aed1f7a703729d3f5203965668e8a"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpsiji-pre",
+      "sha256": "34f41ea5b8b379daf3fb14a80b3efd82d90b340e03eb40bcea360e63f7a4077a",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpsiji.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpsiji.pre",
+          "sha256": "34f41ea5b8b379daf3fb14a80b3efd82d90b340e03eb40bcea360e63f7a4077a"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-baseline-fntgrpsiji-pre",
+      "sha256": "5aff64f33f03c8278000a68e2fc0d3131021b1f0b8c1d8a1502ae30133e6c56a",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpsiji.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpsiji.pre",
+          "sha256": "5aff64f33f03c8278000a68e2fc0d3131021b1f0b8c1d8a1502ae30133e6c56a"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrptlwg-pre",
+      "sha256": "438751d75927635c467cf5350913e82f1074c09a209df4291c71bf64fb08bd8f",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrptlwg.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrptlwg.pre",
+          "sha256": "40295549d2f11fdc0e52a43fa9f07deed33f56c775a3d92cb244e2bd38a037c8"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrptlwg.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrptlwg.pre",
+          "sha256": "40295549d2f11fdc0e52a43fa9f07deed33f56c775a3d92cb244e2bd38a037c8"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrptomthumb-pre",
+      "sha256": "4965693912d3f2d26411da2bc297726946f4d4f4c4683a388a5aae3a6baba558",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrptomthumb.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrptomthumb.pre",
+          "sha256": "04e2331f2023b852d88d86ec314f9f9262f4ecf16bc92c1cdad36669f42c830a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrptomthumb.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrptomthumb.pre",
+          "sha256": "04e2331f2023b852d88d86ec314f9f9262f4ecf16bc92c1cdad36669f42c830a"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpttyp0-pre",
+      "sha256": "e2d9526c28199cfa01754a45002045d7b9eb30a134fbc0512a6c1c7633ad1f48",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpttyp0.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpttyp0.pre",
+          "sha256": "e2d9526c28199cfa01754a45002045d7b9eb30a134fbc0512a6c1c7633ad1f48"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpttyp0.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpttyp0.pre",
+          "sha256": "e2d9526c28199cfa01754a45002045d7b9eb30a134fbc0512a6c1c7633ad1f48"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrptulamide-pre",
+      "sha256": "2d99a4c3c06965561e721c640ee1a6e0bc843f4fc7adb502de1875264f1ff570",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrptulamide.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrptulamide.pre",
+          "sha256": "0f9a74f7e87768cb7e85325d3cfe3806e529386ce0ef4a57ee3f8527c53cbada"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrptulamide.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrptulamide.pre",
+          "sha256": "0f9a74f7e87768cb7e85325d3cfe3806e529386ce0ef4a57ee3f8527c53cbada"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpu8g-pre",
+      "sha256": "eaf090c810d14039c2bbb90e04a2d75258e608a71ee652951b3b0e60edb3b3f6",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpu8g.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpu8g.pre",
+          "sha256": "eaf090c810d14039c2bbb90e04a2d75258e608a71ee652951b3b0e60edb3b3f6"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-baseline-fntgrpu8g-pre",
+      "sha256": "ac30b95ea2413ca4b51c61d8cc3e5df8fd35469a4e49531915f0f64a6e5ca90a",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpu8g.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpu8g.pre",
+          "sha256": "ac30b95ea2413ca4b51c61d8cc3e5df8fd35469a4e49531915f0f64a6e5ca90a"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-fntgrpx11-pre",
+      "sha256": "0334f1fa493f3e491d2ccc774085cfdba1b29356710d371dd9628cf29ff57eec",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/tools/font/build/fntgrpx11.pre",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "tools/font/build/fntgrpx11.pre",
+          "sha256": "0334f1fa493f3e491d2ccc774085cfdba1b29356710d371dd9628cf29ff57eec"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/4a3cadf68afbe3f4d2d415b2517d30c95e40b82c/tools/font/build/fntgrpx11.pre",
+          "revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c",
+          "source_path": "tools/font/build/fntgrpx11.pre",
+          "sha256": "0334f1fa493f3e491d2ccc774085cfdba1b29356710d371dd9628cf29ff57eec"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-texts-cc-by-3-0-txt",
+      "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76",
+      "sources": [
+        {
+          "repo": "creativecommons/cc-legal-tools-data",
+          "revision": "6d7046ff3146bbc034e88d9c87854e43d2a28e32",
+          "source_path": "docs/licenses/by/3.0/legalcode.txt",
+          "canonical_url": "https://creativecommons.org/licenses/by/3.0/legalcode.txt",
+          "url": "https://raw.githubusercontent.com/creativecommons/cc-legal-tools-data/6d7046ff3146bbc034e88d9c87854e43d2a28e32/docs/licenses/by/3.0/legalcode.txt",
+          "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-texts-cc-by-4-0-txt",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "sources": [
+        {
+          "repo": "creativecommons/cc-legal-tools-data",
+          "revision": "6d7046ff3146bbc034e88d9c87854e43d2a28e32",
+          "source_path": "docs/licenses/by/4.0/legalcode.txt",
+          "canonical_url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+          "url": "https://raw.githubusercontent.com/creativecommons/cc-legal-tools-data/6d7046ff3146bbc034e88d9c87854e43d2a28e32/docs/licenses/by/4.0/legalcode.txt",
+          "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-texts-cc-by-nc-sa-3-0-txt",
+      "sha256": "8812f83442fd0eca14eb0208988e190fdcbfebec58fa5459d3218edfdfdc5a32",
+      "sources": [
+        {
+          "repo": "creativecommons/cc-legal-tools-data",
+          "revision": "6d7046ff3146bbc034e88d9c87854e43d2a28e32",
+          "source_path": "docs/licenses/by-nc-sa/3.0/legalcode.txt",
+          "canonical_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt",
+          "url": "https://raw.githubusercontent.com/creativecommons/cc-legal-tools-data/6d7046ff3146bbc034e88d9c87854e43d2a28e32/docs/licenses/by-nc-sa/3.0/legalcode.txt",
+          "sha256": "8812f83442fd0eca14eb0208988e190fdcbfebec58fa5459d3218edfdfdc5a32"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-texts-cc-by-sa-3-0-txt",
+      "sha256": "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f",
+      "sources": [
+        {
+          "repo": "creativecommons/cc-legal-tools-data",
+          "revision": "6d7046ff3146bbc034e88d9c87854e43d2a28e32",
+          "source_path": "docs/licenses/by-sa/3.0/legalcode.txt",
+          "canonical_url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt",
+          "url": "https://raw.githubusercontent.com/creativecommons/cc-legal-tools-data/6d7046ff3146bbc034e88d9c87854e43d2a28e32/docs/licenses/by-sa/3.0/legalcode.txt",
+          "sha256": "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-texts-cc-by-sa-4-0-txt",
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "sources": [
+        {
+          "repo": "creativecommons/cc-legal-tools-data",
+          "revision": "6d7046ff3146bbc034e88d9c87854e43d2a28e32",
+          "source_path": "docs/licenses/by-sa/4.0/legalcode.txt",
+          "canonical_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+          "url": "https://raw.githubusercontent.com/creativecommons/cc-legal-tools-data/6d7046ff3146bbc034e88d9c87854e43d2a28e32/docs/licenses/by-sa/4.0/legalcode.txt",
+          "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-texts-cc0-1-0-txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "sources": [
+        {
+          "repo": "creativecommons/cc-legal-tools-data",
+          "revision": "6d7046ff3146bbc034e88d9c87854e43d2a28e32",
+          "source_path": "docs/publicdomain/zero/1.0/legalcode.txt",
+          "canonical_url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt",
+          "url": "https://raw.githubusercontent.com/creativecommons/cc-legal-tools-data/6d7046ff3146bbc034e88d9c87854e43d2a28e32/docs/publicdomain/zero/1.0/legalcode.txt",
+          "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-texts-open-iconic-font-license-txt",
+      "sha256": "f90e38cdf11a08c99776e9e2e5377e22009b93cb12510c044b69d6b3e28a433d",
+      "sources": [
+        {
+          "repo": "iconic/open-iconic",
+          "revision": "1d1e8885c5031874b32f4e480e371ce2b1c24144",
+          "source_path": "FONT-LICENSE",
+          "url": "https://raw.githubusercontent.com/iconic/open-iconic/1d1e8885c5031874b32f4e480e371ce2b1c24144/FONT-LICENSE",
+          "sha256": "f90e38cdf11a08c99776e9e2e5377e22009b93cb12510c044b69d6b3e28a433d"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-texts-open-iconic-icon-license-txt",
+      "sha256": "b3f22ce84cba8df34011f5d420ec87ad75d7f91700f21cdc8589ee388594325e",
+      "sources": [
+        {
+          "repo": "iconic/open-iconic",
+          "revision": "1d1e8885c5031874b32f4e480e371ce2b1c24144",
+          "source_path": "ICON-LICENSE",
+          "url": "https://raw.githubusercontent.com/iconic/open-iconic/1d1e8885c5031874b32f4e480e371ce2b1c24144/ICON-LICENSE",
+          "sha256": "b3f22ce84cba8df34011f5d420ec87ad75d7f91700f21cdc8589ee388594325e"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-texts-siji-license-txt",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "sources": [
+        {
+          "repo": "stark/siji",
+          "revision": "c691f200c1c66e76daa2afc9cbbd1aa39045c906",
+          "source_path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/stark/siji/c691f200c1c66e76daa2afc9cbbd1aa39045c906/LICENSE",
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+        }
+      ]
+    },
+    {
+      "id": "u8g2-upstream-u8g2-license-txt",
+      "sha256": "f8cabdf6e730a1de09e1eed3a1500226e630753c00fac84b89092592fc8dc39b",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/olikraus/u8g2/d6c8499c5f2707cac8eccd09fd8f677d12b17977/LICENSE",
+          "revision": "d6c8499c5f2707cac8eccd09fd8f677d12b17977",
+          "source_path": "LICENSE",
+          "sha256": "35070a56a2cb59560278c1734c51da94b679bc208c5244625769a0f1df001d30"
+        }
+      ]
+    }
+  ],
+  "notice_format": "Original wording and line breaks; trailing spaces and tabs removed. Each source sha256 covers its upstream bytes; each notice sha256 covers its complete notices/<id>.txt file. A seven-equals separator is indented to avoid Git conflict-marker detection."
+}

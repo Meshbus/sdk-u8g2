@@ -1,0 +1,64 @@
+# SPDX-FileCopyrightText: FoBE Studio
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig U8G2
+	bool "U8G2 graphics library"
+	depends on DISPLAY
+	help
+	  Enable the embedded U8G2 graphics library as a standalone Zephyr module.
+
+	  Notes:
+	  - The Zephyr display adapter (u8g2_display.*) uses dynamic allocation
+	    (k_malloc/k_free). Ensure you have a heap configured (e.g.
+	    CONFIG_HEAP_MEM_POOL_SIZE > 0).
+
+if U8G2
+
+choice
+	prompt "U8G2 buffer mode"
+	default U8G2_BUFFER_MODE_FULL
+
+config U8G2_BUFFER_MODE_FULL
+	bool "Full framebuffer"
+	help
+	  Use a full framebuffer in RAM and flush with u8g2_SendBuffer().
+
+config U8G2_BUFFER_MODE_PAGE8
+	bool "Paged buffer (fixed 8-row pages)"
+	help
+	  Use a paged buffer with tile_buf_height=1 (8 pixel rows) and render
+	  with the u8g2_FirstPage()/u8g2_NextPage() loop.
+
+endchoice
+
+config U8G2_SNAPSHOT
+	bool "Keep the last complete frame for diagnostic snapshots"
+	depends on U8G2_BUFFER_MODE_FULL
+	help
+	  Keep one extra full framebuffer for synchronized snapshot copies.
+	  Shell and Display MCUmgr diagnostics share this source. Frames are
+	  published on full-buffer refresh, independently of panel readback.
+
+config U8G2_INVERT
+	bool "Invert monochrome output"
+	default n
+	help
+	  Invert the final monochrome pixel stream before it is written via the
+	  Zephyr Display API.
+
+config U8G2_FONT_ALL
+	bool "Enable all built-in U8G2 fonts"
+	default n
+	help
+	  Build all fonts defined in src/u8g2_fonts.c.
+
+	  Disable this to selectively enable only required font symbols through
+	  the U8G2 font options below.
+
+	  Fonts retain independent licenses, including noncommercial restrictions
+	  and unresolved grants. See fonts/README.md
+	  before selecting fonts; the library license does not cover every font.
+
+rsource "Kconfig.fonts"
+
+endif # U8G2

@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: 2026 FoBE Studio
+# SPDX-License-Identifier: Apache-2.0
+common:
+  tags: [u8g2, display]
+  harness: ztest
+  platform_allow: [qemu_x86]
+  integration_platforms: [qemu_x86]
+tests:
+  u8g2.adapter.full:
+    extra_configs:
+      - CONFIG_U8G2_SNAPSHOT=y
+  u8g2.adapter.snapshot_disabled: {}
+  u8g2.adapter.page:
+    extra_configs:
+      - CONFIG_U8G2_BUFFER_MODE_PAGE8=y

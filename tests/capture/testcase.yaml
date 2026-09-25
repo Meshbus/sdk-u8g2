@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: 2026 FoBE Studio
+# SPDX-License-Identifier: Apache-2.0
+tests:
+  u8g2.capture:
+    tags: [u8g2, display]
+    harness: ztest
+    platform_allow: [qemu_x86]
+    integration_platforms: [qemu_x86]

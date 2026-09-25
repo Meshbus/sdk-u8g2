@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: 2026 FoBE Studio
+# SPDX-License-Identifier: Apache-2.0
+version = 1
+
+# Only repository-owned documentation, metadata and new tests are covered.
+# Retained upstream source and independent font notices keep their own terms.
+[[annotations]]
+path = ["README.md", "LICENSING.md", "fonts/README.md",
+        "fonts/catalog.json", "fonts/sources.json", ".gitignore",
+        "samples/display/README.rst", "samples/display/prj.conf",
+        "samples/display/sample.yaml", "tests/**", "zephyr/module.yml"]
+precedence = "closest"
+SPDX-FileCopyrightText = "FoBE Studio"
+SPDX-License-Identifier = "Apache-2.0"
+
+# Capture helpers retain the upstream two-clause BSD grant and attribution.
+[[annotations]]
+path = ["src/u8x8_capture.c", "src/u8x8_u16toa.c"]
+precedence = "closest"
+SPDX-FileCopyrightText = "2016 olikraus@gmail.com"
+SPDX-License-Identifier = "BSD-2-Clause"

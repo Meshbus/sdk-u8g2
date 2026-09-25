@@ -1,0 +1,3303 @@
+{
+  "schema_version": 1,
+  "groups": {
+    "fntgrpacademiasinica": {
+      "name": "Academia Sinica",
+      "license": "Academia Sinica permission notice",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpacademiasinica-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpacademiasinica-pre"
+    },
+    "fntgrpadobex11": {
+      "name": "Adobe X11",
+      "license": "Adobe/DEC X11 permission notice",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpadobex11-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpadobex11-pre"
+    },
+    "fntgrpangel": {
+      "name": "Angel",
+      "license": "Public domain statement",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpangel-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpangel-pre"
+    },
+    "fntgrpbitfontmaker2": {
+      "name": "bitfontmaker2",
+      "license": "Public domain statement",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpbitfontmaker2-pre",
+      "baseline_notice": "u8g2-baseline-fntgrpbitfontmaker2-pre"
+    },
+    "fntgrpchristinaneofotistou": {
+      "name": "ChristinaAntoinetteNeofotistou",
+      "license": "Creative Commons Attribution; version unspecified",
+      "status": "review-required",
+      "notice": "u8g2-upstream-fntgrpchristinaneofotistou-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpchristinaneofotistou-pre"
+    },
+    "fntgrpcodeman38": {
+      "name": "Codeman38",
+      "license": "OFL-1.1",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpcodeman38-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpcodeman38-pre"
+    },
+    "fntgrpcrox": {
+      "name": "crox",
+      "license": "EWT/Cronyx permission notice",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpcrox-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpcrox-pre"
+    },
+    "fntgrpcu12": {
+      "name": "cu12",
+      "license": "MIT permission notice (NMSU)",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpcu12-pre",
+      "baseline_notice": "u8g2-baseline-fntgrpcu12-pre"
+    },
+    "fntgrpdafont": {
+      "name": "dafont",
+      "license": "Distribution terms not established by platform free label",
+      "status": "review-required",
+      "notice": "u8g2-upstream-fntgrpdafont-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpdafont-pre"
+    },
+    "fntgrpefont": {
+      "name": "efont",
+      "license": "efont/Bitstream/Adobe permission notices",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpefont-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpefont-pre"
+    },
+    "fntgrpextant": {
+      "name": "Extant",
+      "license": "Public domain statement",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpextant-pre",
+      "baseline_notice": "u8g2-baseline-fntgrpextant-pre"
+    },
+    "fntgrpfontstruct": {
+      "name": "Fontstruct",
+      "license": "CC-BY-SA-3.0",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpfontstruct-pre",
+      "baseline_notice": "u8g2-baseline-fntgrpfontstruct-pre"
+    },
+    "fntgrpfreeuniversal": {
+      "name": "Free Universal",
+      "license": "SIL Open Font License; version unspecified in group notice",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpfreeuniversal-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpfreeuniversal-pre"
+    },
+    "fntgrpgeoff": {
+      "name": "Geoff",
+      "license": "Public domain statement",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpgeoff-pre",
+      "baseline_notice": "u8g2-baseline-fntgrpgeoff-pre"
+    },
+    "fntgrpgilesbooth": {
+      "name": "GilesBooth",
+      "license": "Public domain statement",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpgilesbooth-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpgilesbooth-pre"
+    },
+    "fntgrpiconic": {
+      "name": "Open Iconic",
+      "license": "OFL-1.1 font; original PNG icons also carry MIT notice",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpiconic-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpiconic-pre"
+    },
+    "fntgrpinconsolata": {
+      "name": "Inconsolata",
+      "license": "SIL Open Font License; version unspecified in group notice",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpinconsolata-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpinconsolata-pre"
+    },
+    "fntgrpjapanyoshi": {
+      "name": "JapanYoshi",
+      "license": "Public domain statement",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpjapanyoshi-pre",
+      "baseline_notice": "u8g2-baseline-fntgrpjapanyoshi-pre"
+    },
+    "fntgrpjaywright": {
+      "name": "JayWright",
+      "license": "Public domain statement",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpjaywright-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpjaywright-pre"
+    },
+    "fntgrpjosephknightcom": {
+      "name": "JosephKnightcom",
+      "license": "Public domain statement",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpjosephknightcom-pre",
+      "baseline_notice": "u8g2-baseline-fntgrpjosephknightcom-pre"
+    },
+    "fntgrplogisoso": {
+      "name": "Logisoso",
+      "license": "Conflicting OFL listing and GPLv2 with font exception COPYING",
+      "status": "review-required",
+      "notice": "u8g2-upstream-fntgrplogisoso-pre",
+      "baseline_notice": "u8g2-upstream-fntgrplogisoso-pre"
+    },
+    "fntgrplucida": {
+      "name": "lucida",
+      "license": "Lucida/Bigelow-Holmes/Sun permission notice",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrplucida-pre",
+      "baseline_notice": "u8g2-upstream-fntgrplucida-pre"
+    },
+    "fntgrpmistressellipsis": {
+      "name": "MistressEllipsis",
+      "license": "Public domain statement",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpmistressellipsis-pre",
+      "baseline_notice": "u8g2-baseline-fntgrpmistressellipsis-pre"
+    },
+    "fntgrpnbp": {
+      "name": "NBP",
+      "license": "CC-BY-SA-3.0",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpnbp-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpnbp-pre"
+    },
+    "fntgrpoldschoolpcfonts": {
+      "name": "Oldschool PC Fonts",
+      "license": "CC-BY-SA-4.0",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpoldschoolpcfonts-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpoldschoolpcfonts-pre"
+    },
+    "fntgrpoldstandard": {
+      "name": "Old Standard",
+      "license": "SIL Open Font License; version unspecified in group notice",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpoldstandard-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpoldstandard-pre"
+    },
+    "fntgrpopengameart": {
+      "name": "Open Game Art",
+      "license": "CC0-1.0",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpopengameart-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpopengameart-pre"
+    },
+    "fntgrppentacom": {
+      "name": "Pentacom",
+      "license": "Public domain statement",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrppentacom-pre"
+    },
+    "fntgrppersian": {
+      "name": "Persian",
+      "license": "See family-specific Persian font notices",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrppersian-pre",
+      "baseline_notice": "u8g2-upstream-fntgrppersian-pre"
+    },
+    "fntgrpprofont": {
+      "name": "Profont",
+      "license": "MIT",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpprofont-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpprofont-pre"
+    },
+    "fntgrpsiji": {
+      "name": "Siji Icon Font",
+      "license": "GPLv2; only/or-later not specified by font notice; plus X11 6x10",
+      "status": "review-required",
+      "notice": "u8g2-upstream-fntgrpsiji-pre",
+      "baseline_notice": "u8g2-baseline-fntgrpsiji-pre"
+    },
+    "fntgrptlwg": {
+      "name": "Tlwg (Thai-Fonts)",
+      "license": "Public domain statement",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrptlwg-pre",
+      "baseline_notice": "u8g2-upstream-fntgrptlwg-pre"
+    },
+    "fntgrptomthumb": {
+      "name": "Tom-Thumb",
+      "license": "CC0-1.0 OR CC-BY-3.0 (upstream also records historical MIT)",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrptomthumb-pre",
+      "baseline_notice": "u8g2-upstream-fntgrptomthumb-pre"
+    },
+    "fntgrpttyp0": {
+      "name": "UW ttyp0",
+      "license": "TTYP0 permission notice",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpttyp0-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpttyp0-pre"
+    },
+    "fntgrptulamide": {
+      "name": "Tulamide",
+      "license": "Public domain statement",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrptulamide-pre",
+      "baseline_notice": "u8g2-upstream-fntgrptulamide-pre"
+    },
+    "fntgrpu8g": {
+      "name": "U8glib",
+      "license": "Public domain statement",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpu8g-pre",
+      "baseline_notice": "u8g2-baseline-fntgrpu8g-pre"
+    },
+    "fntgrpx11": {
+      "name": "X11",
+      "license": "Public domain or unencumbered glyph statement",
+      "status": "documented",
+      "notice": "u8g2-upstream-fntgrpx11-pre",
+      "baseline_notice": "u8g2-upstream-fntgrpx11-pre"
+    }
+  },
+  "families": {
+    "10x20": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "10x20.bdf"
+      ]
+    },
+    "4x6": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "4x6.bdf"
+      ]
+    },
+    "5x7": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "5x7.bdf"
+      ]
+    },
+    "5x8": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "5x8.bdf"
+      ]
+    },
+    "6x10": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "6x10.bdf"
+      ]
+    },
+    "6x12": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "6x12.bdf"
+      ]
+    },
+    "6x13": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "6x13.bdf"
+      ]
+    },
+    "6x13B": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "6x13B.bdf"
+      ]
+    },
+    "6x13O": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "6x13O.bdf"
+      ]
+    },
+    "7Segments_26x42": {
+      "group": "fntgrpu8g",
+      "license": "No grant in font header; upstream contribution/source needs review",
+      "status": "review-required",
+      "source_files": [
+        "7Segments_26x42.bdf"
+      ]
+    },
+    "7x13": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "7x13.bdf"
+      ]
+    },
+    "7x13B": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "7x13B.bdf"
+      ]
+    },
+    "7x13O": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "7x13O.bdf"
+      ]
+    },
+    "7x14": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "7x14.bdf"
+      ]
+    },
+    "7x14B": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "7x14B.bdf"
+      ]
+    },
+    "8x13": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "8x13.bdf"
+      ]
+    },
+    "8x13B": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "8x13B.bdf"
+      ]
+    },
+    "8x13O": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "8x13O.bdf"
+      ]
+    },
+    "9x15": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "9x15.bdf"
+      ]
+    },
+    "9x15B": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "9x15B.bdf"
+      ]
+    },
+    "9x18": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "9x18.bdf"
+      ]
+    },
+    "9x18B": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "9x18B.bdf"
+      ]
+    },
+    "BBSesque": {
+      "group": "fntgrpjapanyoshi",
+      "source_files": [
+        "BBSesque.ttf"
+      ]
+    },
+    "BitTypeWriter": {
+      "group": "fntgrppentacom",
+      "source_files": [
+        "BitTypeWriter.ttf"
+      ]
+    },
+    "Born2bSportySlab": {
+      "group": "fntgrpjapanyoshi",
+      "source_files": [
+        "Born2bSportySlab.ttf"
+      ]
+    },
+    "Born2bSportyV2": {
+      "group": "fntgrpjapanyoshi",
+      "source_files": [
+        "Born2bSportyV2.ttf"
+      ]
+    },
+    "CursivePixel": {
+      "group": "fntgrpjapanyoshi",
+      "source_files": [
+        "CursivePixel.ttf"
+      ]
+    },
+    "DigitalDisco": {
+      "group": "fntgrpdafont",
+      "license": "CC-BY-4.0",
+      "status": "documented",
+      "source_files": [
+        "DigitalDisco.ttf"
+      ]
+    },
+    "DigitalDiscoThin": {
+      "group": "fntgrpdafont",
+      "license": "CC-BY-4.0",
+      "status": "documented",
+      "source_files": [
+        "DigitalDisco-Thin.ttf"
+      ]
+    },
+    "Engrish": {
+      "group": "fntgrpjapanyoshi",
+      "source_files": [
+        "Engrish.ttf"
+      ]
+    },
+    "Georgia7px": {
+      "group": "fntgrppentacom",
+      "source_files": [
+        "Georgia7px.ttf"
+      ]
+    },
+    "HelvetiPixel": {
+      "group": "fntgrppentacom",
+      "source_files": [
+        "HelvetiPixel.ttf"
+      ]
+    },
+    "HelvetiPixelOutline": {
+      "group": "fntgrppentacom",
+      "source_files": [
+        "HelvetiPixelOutline.ttf"
+      ]
+    },
+    "IPAandRUSLCD": {
+      "group": "fntgrpjapanyoshi",
+      "license": "Creative Commons Attribution; version unspecified",
+      "status": "review-required",
+      "source_files": [
+        "IPAandRUSLCD.ttf"
+      ]
+    },
+    "ImpactBits": {
+      "group": "fntgrpjapanyoshi",
+      "source_files": [
+        "ImpactBits.ttf"
+      ]
+    },
+    "Pixellari": {
+      "group": "fntgrpdafont",
+      "source_files": [
+        "Pixellari.ttf"
+      ]
+    },
+    "TimesNewPixel": {
+      "group": "fntgrppentacom",
+      "source_files": [
+        "TimesNewPixel.ttf"
+      ]
+    },
+    "Untitled16PixelSansSerifBitmap": {
+      "group": "fntgrppentacom",
+      "source_files": [
+        "Untitled16PixelSansSerifBitmapTestFont.ttf"
+      ]
+    },
+    "VCR_OSD": {
+      "group": "fntgrpdafont",
+      "source_files": [
+        "VCR_OSD_MONO_1.001.ttf"
+      ]
+    },
+    "Wizzard": {
+      "group": "fntgrppentacom",
+      "source_files": [
+        "Wizzard.ttf"
+      ]
+    },
+    "adventurer": {
+      "group": "fntgrpbitfontmaker2",
+      "license": "Creative Commons Attribution; version unspecified",
+      "status": "review-required",
+      "source_files": [
+        "Adventurer.ttf"
+      ]
+    },
+    "amstrad_cpc_extended": {
+      "group": "fntgrpfontstruct",
+      "license": "CC-BY-3.0",
+      "source_files": [
+        "amstrad_cpc_extended.bdf"
+      ]
+    },
+    "artossans8": {
+      "group": "fntgrpopengameart",
+      "source_files": [
+        "ArtosSans-8.bdf"
+      ]
+    },
+    "artosserif8": {
+      "group": "fntgrpopengameart",
+      "source_files": [
+        "ArtosSerif-8.bdf"
+      ]
+    },
+    "astragal_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "astra0.ttf"
+      ]
+    },
+    "b10": {
+      "group": "fntgrpefont",
+      "source_files": [
+        "b10.bdf"
+      ]
+    },
+    "b10_b": {
+      "group": "fntgrpefont",
+      "source_files": [
+        "b10_b.bdf"
+      ]
+    },
+    "b12": {
+      "group": "fntgrpefont",
+      "source_files": [
+        "b12.bdf"
+      ]
+    },
+    "b12_b": {
+      "group": "fntgrpefont",
+      "source_files": [
+        "b12_b.bdf"
+      ]
+    },
+    "b16": {
+      "group": "fntgrpefont",
+      "source_files": [
+        "b16.bdf"
+      ]
+    },
+    "b16_b": {
+      "group": "fntgrpefont",
+      "source_files": [
+        "b16_b.bdf"
+      ]
+    },
+    "baby": {
+      "group": "fntgrpfontstruct",
+      "source_files": [
+        "baby.ttf"
+      ]
+    },
+    "balthasar_regular_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "BALRG_0.ttf"
+      ]
+    },
+    "balthasar_titling_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "BALTT_0.ttf"
+      ]
+    },
+    "battery19": {
+      "group": "fntgrpu8g",
+      "license": "No grant in font header; upstream contribution/source needs review",
+      "status": "review-required",
+      "source_files": [
+        "battery19.bdf"
+      ]
+    },
+    "bauhaus2015": {
+      "group": "fntgrpgilesbooth",
+      "license": "Creative Commons Attribution; version unspecified",
+      "status": "review-required",
+      "source_files": [
+        "Bauhaus2015.ttf"
+      ]
+    },
+    "beanstalk_mel": {
+      "group": "fntgrpmistressellipsis",
+      "source_files": [
+        "Beanstalk.ttf"
+      ]
+    },
+    "bitcasual": {
+      "group": "fntgrpgeoff",
+      "source_files": [
+        "BitCasual.ttf"
+      ]
+    },
+    "blipfest_07": {
+      "group": "fntgrpfontstruct",
+      "source_files": [
+        "blipfest_07.ttf"
+      ]
+    },
+    "bracketedbabies": {
+      "group": "fntgrpbitfontmaker2",
+      "source_files": [
+        "BracketedBabies.ttf"
+      ]
+    },
+    "bubble": {
+      "group": "fntgrpfontstruct",
+      "source_files": [
+        "bubble.ttf"
+      ]
+    },
+    "calibration_gothic_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "CALIBRATE1.ttf"
+      ]
+    },
+    "cardimon_pixel": {
+      "group": "fntgrpfontstruct",
+      "source_files": [
+        "cardimon-pixel.ttf"
+      ]
+    },
+    "celibatemonk": {
+      "group": "fntgrpjaywright",
+      "source_files": [
+        "CelibateMonk.ttf"
+      ]
+    },
+    "chikita": {
+      "group": "fntgrpfontstruct",
+      "source_files": [
+        "chikita.ttf"
+      ]
+    },
+    "chroma48medium8": {
+      "group": "fntgrpopengameart",
+      "source_files": [
+        "Chroma48Medium-8.bdf"
+      ]
+    },
+    "courB08": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "courB08.bdf"
+      ]
+    },
+    "courB10": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "courB10.bdf"
+      ]
+    },
+    "courB12": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "courB12.bdf"
+      ]
+    },
+    "courB14": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "courB14.bdf"
+      ]
+    },
+    "courB18": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "courB18.bdf"
+      ]
+    },
+    "courB24": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "courB24.bdf"
+      ]
+    },
+    "courR08": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "courR08.bdf"
+      ]
+    },
+    "courR10": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "courR10.bdf"
+      ]
+    },
+    "courR12": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "courR12.bdf"
+      ]
+    },
+    "courR14": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "courR14.bdf"
+      ]
+    },
+    "courR18": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "courR18.bdf"
+      ]
+    },
+    "courR24": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "courR24.bdf"
+      ]
+    },
+    "crox1c": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox1c.bdf"
+      ]
+    },
+    "crox1cb": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox1cb.bdf"
+      ]
+    },
+    "crox1h": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox1h.bdf"
+      ]
+    },
+    "crox1hb": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox1hb.bdf"
+      ]
+    },
+    "crox1t": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox1t.bdf"
+      ]
+    },
+    "crox1tb": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox1tb.bdf"
+      ]
+    },
+    "crox2c": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox2c.bdf"
+      ]
+    },
+    "crox2cb": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox2cb.bdf"
+      ]
+    },
+    "crox2h": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox2h.bdf"
+      ]
+    },
+    "crox2hb": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox2hb.bdf"
+      ]
+    },
+    "crox2t": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox2t.bdf"
+      ]
+    },
+    "crox2tb": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox2tb.bdf"
+      ]
+    },
+    "crox3c": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox3c.bdf"
+      ]
+    },
+    "crox3cb": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox3cb.bdf"
+      ]
+    },
+    "crox3h": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox3h.bdf"
+      ]
+    },
+    "crox3hb": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox3hb.bdf"
+      ]
+    },
+    "crox3t": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox3t.bdf"
+      ]
+    },
+    "crox3tb": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox3tb.bdf"
+      ]
+    },
+    "crox4h": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox4h.bdf"
+      ]
+    },
+    "crox4hb": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox4hb.bdf"
+      ]
+    },
+    "crox4t": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox4t.bdf"
+      ]
+    },
+    "crox4tb": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox4tb.bdf"
+      ]
+    },
+    "crox5h": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox5h.bdf"
+      ]
+    },
+    "crox5hb": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox5hb.bdf"
+      ]
+    },
+    "crox5t": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox5t.bdf"
+      ]
+    },
+    "crox5tb": {
+      "group": "fntgrpcrox",
+      "source_files": [
+        "win_crox5tb.bdf"
+      ]
+    },
+    "cu12": {
+      "group": "fntgrpcu12",
+      "source_files": [
+        "cu12.bdf"
+      ]
+    },
+    "cube_mel": {
+      "group": "fntgrpmistressellipsis",
+      "source_files": [
+        "Cube.ttf"
+      ]
+    },
+    "cupcakemetoyourleader": {
+      "group": "fntgrpangel",
+      "source_files": [
+        "CupcakeMeToYourLeader.ttf"
+      ]
+    },
+    "cursor": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "cursor.bdf"
+      ]
+    },
+    "diodesemimono": {
+      "group": "fntgrpjosephknightcom",
+      "source_files": [
+        "DiodeSemiMono.ttf"
+      ]
+    },
+    "disrespectfulteenager": {
+      "group": "fntgrpjaywright",
+      "source_files": [
+        "DisrespectfulTeenager.ttf"
+      ]
+    },
+    "emoticons21": {
+      "group": "fntgrpu8g",
+      "source_files": [
+        "emoticons21.bdf"
+      ]
+    },
+    "etl14thai": {
+      "group": "fntgrptlwg",
+      "source_files": [
+        "etl14-thai.bdf"
+      ]
+    },
+    "etl16thai": {
+      "group": "fntgrptlwg",
+      "source_files": [
+        "etl16-thai.bdf"
+      ]
+    },
+    "etl24thai": {
+      "group": "fntgrptlwg",
+      "source_files": [
+        "etl24-thai.bdf"
+      ]
+    },
+    "f10": {
+      "group": "fntgrpefont",
+      "source_files": [
+        "f10.bdf"
+      ]
+    },
+    "f10_b": {
+      "group": "fntgrpefont",
+      "source_files": [
+        "f10_b.bdf"
+      ]
+    },
+    "f12": {
+      "group": "fntgrpefont",
+      "source_files": [
+        "f12.bdf"
+      ]
+    },
+    "f12_b": {
+      "group": "fntgrpefont",
+      "source_files": [
+        "f12_b.bdf"
+      ]
+    },
+    "f16": {
+      "group": "fntgrpefont",
+      "source_files": [
+        "f16.bdf"
+      ]
+    },
+    "f16_b": {
+      "group": "fntgrpefont",
+      "source_files": [
+        "f16_b.bdf"
+      ]
+    },
+    "fancypixels": {
+      "group": "fntgrpbitfontmaker2",
+      "license": "Creative Commons NonCommercial; variant/version unspecified",
+      "status": "restricted",
+      "source_files": [
+        "FancyPixels.ttf"
+      ]
+    },
+    "fewture": {
+      "group": "fntgrptulamide",
+      "source_files": [
+        "Fewture.ttf"
+      ]
+    },
+    "finderskeepers": {
+      "group": "fntgrpgilesbooth",
+      "license": "Creative Commons Attribution; version unspecified",
+      "status": "review-required",
+      "source_files": [
+        "FindersKeepers.ttf"
+      ]
+    },
+    "freedoomr10": {
+      "group": "fntgrpu8g",
+      "license": "Group says public domain/free; local header attributes FreeUniversal/SIL Sophia",
+      "status": "review-required",
+      "source_files": [
+        "freedoomr10r.bdf"
+      ]
+    },
+    "freedoomr25": {
+      "group": "fntgrpu8g",
+      "license": "Group says public domain/free; local header attributes FreeUniversal/SIL Sophia",
+      "status": "review-required",
+      "source_files": [
+        "freedoomr25n.bdf"
+      ]
+    },
+    "frikativ": {
+      "group": "fntgrpbitfontmaker2",
+      "source_files": [
+        "Frikativ.ttf"
+      ]
+    },
+    "fub11": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Bold.ttf"
+      ]
+    },
+    "fub14": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Bold.ttf"
+      ]
+    },
+    "fub17": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Bold.ttf"
+      ]
+    },
+    "fub20": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Bold.ttf"
+      ]
+    },
+    "fub25": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Bold.ttf"
+      ]
+    },
+    "fub30": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Bold.ttf"
+      ]
+    },
+    "fub35": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Bold.ttf"
+      ]
+    },
+    "fub42": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Bold.ttf"
+      ]
+    },
+    "fub49": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Bold.ttf"
+      ]
+    },
+    "fur11": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Regular.ttf"
+      ]
+    },
+    "fur14": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Regular.ttf"
+      ]
+    },
+    "fur17": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Regular.ttf"
+      ]
+    },
+    "fur20": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Regular.ttf"
+      ]
+    },
+    "fur25": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Regular.ttf"
+      ]
+    },
+    "fur30": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Regular.ttf"
+      ]
+    },
+    "fur35": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Regular.ttf"
+      ]
+    },
+    "fur42": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Regular.ttf"
+      ]
+    },
+    "fur49": {
+      "group": "fntgrpfreeuniversal",
+      "source_files": [
+        "FreeUniversal-Regular.ttf"
+      ]
+    },
+    "ganj_nameh_sans10": {
+      "group": "fntgrppersian",
+      "license": "OFL-1.1; preserve local copyright and upstream Jomhuria notice",
+      "source_files": [
+        "GanjNamehSans-Regular.ttf"
+      ]
+    },
+    "ganj_nameh_sans12": {
+      "group": "fntgrppersian",
+      "license": "OFL-1.1; preserve local copyright and upstream Jomhuria notice",
+      "source_files": [
+        "GanjNamehSans-Regular.ttf"
+      ]
+    },
+    "ganj_nameh_sans14": {
+      "group": "fntgrppersian",
+      "license": "OFL-1.1; preserve local copyright and upstream Jomhuria notice",
+      "source_files": [
+        "GanjNamehSans-Regular.ttf"
+      ]
+    },
+    "ganj_nameh_sans16": {
+      "group": "fntgrppersian",
+      "license": "OFL-1.1; preserve local copyright and upstream Jomhuria notice",
+      "source_files": [
+        "GanjNamehSans-Regular.ttf"
+      ]
+    },
+    "gb16st": {
+      "group": "fntgrpacademiasinica",
+      "source_files": [
+        "gb16st.bdf"
+      ]
+    },
+    "gb24st": {
+      "group": "fntgrpacademiasinica",
+      "source_files": [
+        "gb24st.bdf"
+      ]
+    },
+    "glasstown_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "glasstown_nbp.ttf"
+      ]
+    },
+    "guildenstern_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "GUILD_0.ttf"
+      ]
+    },
+    "habsburgchancery": {
+      "group": "fntgrpextant",
+      "source_files": [
+        "HabsburgChancery.ttf"
+      ]
+    },
+    "halftone": {
+      "group": "fntgrptulamide",
+      "source_files": [
+        "Halftone.ttf"
+      ]
+    },
+    "haxrcorp4089": {
+      "group": "fntgrpfontstruct",
+      "source_files": [
+        "haxrcorp4089.ttf"
+      ]
+    },
+    "heavybottom": {
+      "group": "fntgrpbitfontmaker2",
+      "source_files": [
+        "HEAVYBOTTOM.ttf"
+      ]
+    },
+    "helvB08": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "helvB08.bdf"
+      ]
+    },
+    "helvB10": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "helvB10.bdf"
+      ]
+    },
+    "helvB12": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "helvB12.bdf"
+      ]
+    },
+    "helvB14": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "helvB14.bdf"
+      ]
+    },
+    "helvB18": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "helvB18.bdf"
+      ]
+    },
+    "helvB24": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "helvB24.bdf"
+      ]
+    },
+    "helvR08": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "helvR08.bdf"
+      ]
+    },
+    "helvR10": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "helvR10.bdf"
+      ]
+    },
+    "helvR12": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "helvR12.bdf"
+      ]
+    },
+    "helvR14": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "helvR14.bdf"
+      ]
+    },
+    "helvR18": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "helvR18.bdf"
+      ]
+    },
+    "helvR24": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "helvR24.bdf"
+      ]
+    },
+    "iconquadpix": {
+      "group": "fntgrpbitfontmaker2",
+      "license": "Creative Commons NonCommercial; variant/version unspecified",
+      "status": "restricted",
+      "source_files": [
+        "IconQuadPix.ttf"
+      ]
+    },
+    "inb16": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inb.otf"
+      ]
+    },
+    "inb19": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inb.otf"
+      ]
+    },
+    "inb21": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inb.otf"
+      ]
+    },
+    "inb24": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inb.otf"
+      ]
+    },
+    "inb27": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inb.otf"
+      ]
+    },
+    "inb30": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inb.otf"
+      ]
+    },
+    "inb33": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inb.otf"
+      ]
+    },
+    "inb38": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inb.otf"
+      ]
+    },
+    "inb42": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inb.otf"
+      ]
+    },
+    "inb46": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inb.otf"
+      ]
+    },
+    "inb49": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inb.otf"
+      ]
+    },
+    "inb53": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inb.otf"
+      ]
+    },
+    "inb57": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inb.otf"
+      ]
+    },
+    "inb63": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inb.otf"
+      ]
+    },
+    "inr16": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inr.otf"
+      ]
+    },
+    "inr19": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inr.otf"
+      ]
+    },
+    "inr21": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inr.otf"
+      ]
+    },
+    "inr24": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inr.otf"
+      ]
+    },
+    "inr27": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inr.otf"
+      ]
+    },
+    "inr30": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inr.otf"
+      ]
+    },
+    "inr33": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inr.otf"
+      ]
+    },
+    "inr38": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inr.otf"
+      ]
+    },
+    "inr42": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inr.otf"
+      ]
+    },
+    "inr46": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inr.otf"
+      ]
+    },
+    "inr49": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inr.otf"
+      ]
+    },
+    "inr53": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inr.otf"
+      ]
+    },
+    "inr57": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inr.otf"
+      ]
+    },
+    "inr62": {
+      "group": "fntgrpinconsolata",
+      "source_files": [
+        "inr.otf"
+      ]
+    },
+    "iranian_sans_10": {
+      "group": "fntgrppersian",
+      "license": "Iranian FOSS font license plus Bitstream Vera license",
+      "source_files": [
+        "IranianSansRegular.ttf"
+      ]
+    },
+    "iranian_sans_12": {
+      "group": "fntgrppersian",
+      "license": "Iranian FOSS font license plus Bitstream Vera license",
+      "source_files": [
+        "IranianSansRegular.ttf"
+      ]
+    },
+    "iranian_sans_14": {
+      "group": "fntgrppersian",
+      "license": "Iranian FOSS font license plus Bitstream Vera license",
+      "source_files": [
+        "IranianSansRegular.ttf"
+      ]
+    },
+    "iranian_sans_16": {
+      "group": "fntgrppersian",
+      "license": "Iranian FOSS font license plus Bitstream Vera license",
+      "source_files": [
+        "IranianSansRegular.ttf"
+      ]
+    },
+    "iranian_sans_8": {
+      "group": "fntgrppersian",
+      "license": "Iranian FOSS font license plus Bitstream Vera license",
+      "source_files": [
+        "IranianSansRegular.ttf"
+      ]
+    },
+    "jinxedwizards": {
+      "group": "fntgrpchristinaneofotistou",
+      "source_files": [
+        "JinxedWizards.ttf"
+      ]
+    },
+    "koleeko": {
+      "group": "fntgrpgeoff",
+      "source_files": [
+        "Koleeko.ttf"
+      ]
+    },
+    "lastapprenticebold": {
+      "group": "fntgrpbitfontmaker2",
+      "license": "Creative Commons NonCommercial; variant/version unspecified",
+      "status": "restricted",
+      "source_files": [
+        "LastApprenticeBold.ttf"
+      ]
+    },
+    "lastapprenticethin": {
+      "group": "fntgrpbitfontmaker2",
+      "license": "Creative Commons NonCommercial; variant/version unspecified",
+      "status": "restricted",
+      "source_files": [
+        "LastApprenticeThin.ttf"
+      ]
+    },
+    "lastpriestess": {
+      "group": "fntgrpchristinaneofotistou",
+      "source_files": [
+        "LastPriestess.ttf"
+      ]
+    },
+    "logisoso16": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso18": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso20": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso22": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso24": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso26": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso28": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso30": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso32": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso34": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso38": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso42": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso46": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso50": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso54": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso58": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso62": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso78": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "logisoso92": {
+      "group": "fntgrplogisoso",
+      "source_files": [
+        "Logisoso.ttf"
+      ]
+    },
+    "luBIS08": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luBIS08.bdf"
+      ]
+    },
+    "luBIS10": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luBIS10.bdf"
+      ]
+    },
+    "luBIS12": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luBIS12.bdf"
+      ]
+    },
+    "luBIS14": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luBIS14.bdf"
+      ]
+    },
+    "luBIS18": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luBIS18.bdf"
+      ]
+    },
+    "luBIS19": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luBIS19.bdf"
+      ]
+    },
+    "luBIS24": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luBIS24.bdf"
+      ]
+    },
+    "luBS08": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luBS08.bdf"
+      ]
+    },
+    "luBS10": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luBS10.bdf"
+      ]
+    },
+    "luBS12": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luBS12.bdf"
+      ]
+    },
+    "luBS14": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luBS14.bdf"
+      ]
+    },
+    "luBS18": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luBS18.bdf"
+      ]
+    },
+    "luBS19": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luBS19.bdf"
+      ]
+    },
+    "luBS24": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luBS24.bdf"
+      ]
+    },
+    "luIS08": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luIS08.bdf"
+      ]
+    },
+    "luIS10": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luIS10.bdf"
+      ]
+    },
+    "luIS12": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luIS12.bdf"
+      ]
+    },
+    "luIS14": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luIS14.bdf"
+      ]
+    },
+    "luIS18": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luIS18.bdf"
+      ]
+    },
+    "luIS19": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luIS19.bdf"
+      ]
+    },
+    "luIS24": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luIS24.bdf"
+      ]
+    },
+    "luRS08": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luRS08.bdf"
+      ]
+    },
+    "luRS10": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luRS10.bdf"
+      ]
+    },
+    "luRS12": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luRS12.bdf"
+      ]
+    },
+    "luRS14": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luRS14.bdf"
+      ]
+    },
+    "luRS18": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luRS18.bdf"
+      ]
+    },
+    "luRS19": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luRS19.bdf"
+      ]
+    },
+    "luRS24": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "luRS24.bdf"
+      ]
+    },
+    "lubB08": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubB08.bdf"
+      ]
+    },
+    "lubB10": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubB10.bdf"
+      ]
+    },
+    "lubB12": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubB12.bdf"
+      ]
+    },
+    "lubB14": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubB14.bdf"
+      ]
+    },
+    "lubB18": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubB18.bdf"
+      ]
+    },
+    "lubB19": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubB19.bdf"
+      ]
+    },
+    "lubB24": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubB24.bdf"
+      ]
+    },
+    "lubBI08": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubBI08.bdf"
+      ]
+    },
+    "lubBI10": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubBI10.bdf"
+      ]
+    },
+    "lubBI12": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubBI12.bdf"
+      ]
+    },
+    "lubBI14": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubBI14.bdf"
+      ]
+    },
+    "lubBI18": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubBI18.bdf"
+      ]
+    },
+    "lubBI19": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubBI19.bdf"
+      ]
+    },
+    "lubBI24": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubBI24.bdf"
+      ]
+    },
+    "lubI08": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubI08.bdf"
+      ]
+    },
+    "lubI10": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubI10.bdf"
+      ]
+    },
+    "lubI12": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubI12.bdf"
+      ]
+    },
+    "lubI14": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubI14.bdf"
+      ]
+    },
+    "lubI18": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubI18.bdf"
+      ]
+    },
+    "lubI19": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubI19.bdf"
+      ]
+    },
+    "lubI24": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubI24.bdf"
+      ]
+    },
+    "lubR08": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubR08.bdf"
+      ]
+    },
+    "lubR10": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubR10.bdf"
+      ]
+    },
+    "lubR12": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubR12.bdf"
+      ]
+    },
+    "lubR14": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubR14.bdf"
+      ]
+    },
+    "lubR18": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubR18.bdf"
+      ]
+    },
+    "lubR19": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubR19.bdf"
+      ]
+    },
+    "lubR24": {
+      "group": "fntgrplucida",
+      "source_files": [
+        "lubR24.bdf"
+      ]
+    },
+    "lucasarts_scumm_subtitle_o": {
+      "group": "fntgrpfontstruct",
+      "license": "CC-BY-NC-SA-3.0",
+      "status": "restricted",
+      "source_files": [
+        "lucasarts-scumm-subtitle-roman-outline.ttf"
+      ]
+    },
+    "lucasarts_scumm_subtitle_r": {
+      "group": "fntgrpfontstruct",
+      "license": "CC-BY-NC-SA-3.0",
+      "status": "restricted",
+      "source_files": [
+        "lucasarts-scumm-subtitle-roman.ttf"
+      ]
+    },
+    "lucasfont_alternate": {
+      "group": "fntgrpfontstruct",
+      "license": "CC-BY-3.0",
+      "source_files": [
+        "lucasfont_alternate.ttf"
+      ]
+    },
+    "m2icon_5": {
+      "group": "fntgrpu8g",
+      "source_files": [
+        "m2icon_5.bdf"
+      ]
+    },
+    "m2icon_7": {
+      "group": "fntgrpu8g",
+      "source_files": [
+        "m2icon_7.bdf"
+      ]
+    },
+    "m2icon_9": {
+      "group": "fntgrpu8g",
+      "source_files": [
+        "m2icon_9.bdf"
+      ]
+    },
+    "mademoiselle_mel": {
+      "group": "fntgrpmistressellipsis",
+      "source_files": [
+        "Mademoiselle.ttf"
+      ]
+    },
+    "maniac": {
+      "group": "fntgrpfontstruct",
+      "source_files": [
+        "maniac.ttf"
+      ]
+    },
+    "mercutio_basic_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "mercutio_basic.ttf"
+      ]
+    },
+    "mercutio_sc_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "mercutio_sc.ttf"
+      ]
+    },
+    "michaelmouse": {
+      "group": "fntgrpjaywright",
+      "source_files": [
+        "MichaelMouse.ttf"
+      ]
+    },
+    "micro": {
+      "group": "fntgrpx11",
+      "source_files": [
+        "micro.bdf"
+      ]
+    },
+    "miranda_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "MIRANDA.ttf"
+      ]
+    },
+    "missingplanet": {
+      "group": "fntgrpextant",
+      "source_files": [
+        "MissingPlanet.ttf"
+      ]
+    },
+    "mozart_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "MOZART_0.ttf"
+      ]
+    },
+    "ncenB08": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "ncenB08.bdf"
+      ]
+    },
+    "ncenB10": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "ncenB10.bdf"
+      ]
+    },
+    "ncenB12": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "ncenB12.bdf"
+      ]
+    },
+    "ncenB14": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "ncenB14.bdf"
+      ]
+    },
+    "ncenB18": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "ncenB18.bdf"
+      ]
+    },
+    "ncenB24": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "ncenB24.bdf"
+      ]
+    },
+    "ncenR08": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "ncenR08.bdf"
+      ]
+    },
+    "ncenR10": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "ncenR10.bdf"
+      ]
+    },
+    "ncenR12": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "ncenR12.bdf"
+      ]
+    },
+    "ncenR14": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "ncenR14.bdf"
+      ]
+    },
+    "ncenR18": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "ncenR18.bdf"
+      ]
+    },
+    "ncenR24": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "ncenR24.bdf"
+      ]
+    },
+    "nerhoe": {
+      "group": "fntgrptulamide",
+      "source_files": [
+        "Nerhoe.ttf"
+      ]
+    },
+    "nine_by_five_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "nine0.ttf"
+      ]
+    },
+    "nokiafc22": {
+      "group": "fntgrpdafont",
+      "license": "Custom: distribution allowed; sale prohibited; author notes original-rights uncertainty",
+      "status": "restricted",
+      "source_files": [
+        "nokiafc22.ttf"
+      ]
+    },
+    "oldwizard": {
+      "group": "fntgrpangel",
+      "source_files": [
+        "OldWizard.ttf"
+      ]
+    },
+    "open_iconic_all_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_all_1x.bdf"
+      ]
+    },
+    "open_iconic_all_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_all_2x.bdf"
+      ]
+    },
+    "open_iconic_all_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_all_4x.bdf"
+      ]
+    },
+    "open_iconic_all_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_all_6x.bdf"
+      ]
+    },
+    "open_iconic_all_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_all_8x.bdf"
+      ]
+    },
+    "open_iconic_app_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_app_1x.bdf"
+      ]
+    },
+    "open_iconic_app_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_app_2x.bdf"
+      ]
+    },
+    "open_iconic_app_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_app_4x.bdf"
+      ]
+    },
+    "open_iconic_app_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_app_6x.bdf"
+      ]
+    },
+    "open_iconic_app_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_app_8x.bdf"
+      ]
+    },
+    "open_iconic_arrow_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_arrow_1x.bdf"
+      ]
+    },
+    "open_iconic_arrow_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_arrow_2x.bdf"
+      ]
+    },
+    "open_iconic_arrow_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_arrow_4x.bdf"
+      ]
+    },
+    "open_iconic_arrow_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_arrow_6x.bdf"
+      ]
+    },
+    "open_iconic_arrow_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_arrow_8x.bdf"
+      ]
+    },
+    "open_iconic_check_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_check_1x.bdf"
+      ]
+    },
+    "open_iconic_check_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_check_2x.bdf"
+      ]
+    },
+    "open_iconic_check_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_check_4x.bdf"
+      ]
+    },
+    "open_iconic_check_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_check_6x.bdf"
+      ]
+    },
+    "open_iconic_check_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_check_8x.bdf"
+      ]
+    },
+    "open_iconic_email_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_email_1x.bdf"
+      ]
+    },
+    "open_iconic_email_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_email_2x.bdf"
+      ]
+    },
+    "open_iconic_email_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_email_4x.bdf"
+      ]
+    },
+    "open_iconic_email_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_email_6x.bdf"
+      ]
+    },
+    "open_iconic_email_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_email_8x.bdf"
+      ]
+    },
+    "open_iconic_embedded_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_embedded_1x.bdf"
+      ]
+    },
+    "open_iconic_embedded_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_embedded_2x.bdf"
+      ]
+    },
+    "open_iconic_embedded_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_embedded_4x.bdf"
+      ]
+    },
+    "open_iconic_embedded_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_embedded_6x.bdf"
+      ]
+    },
+    "open_iconic_embedded_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_embedded_8x.bdf"
+      ]
+    },
+    "open_iconic_gui_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_gui_1x.bdf"
+      ]
+    },
+    "open_iconic_gui_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_gui_2x.bdf"
+      ]
+    },
+    "open_iconic_gui_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_gui_4x.bdf"
+      ]
+    },
+    "open_iconic_gui_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_gui_6x.bdf"
+      ]
+    },
+    "open_iconic_gui_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_gui_8x.bdf"
+      ]
+    },
+    "open_iconic_human_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_human_1x.bdf"
+      ]
+    },
+    "open_iconic_human_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_human_2x.bdf"
+      ]
+    },
+    "open_iconic_human_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_human_4x.bdf"
+      ]
+    },
+    "open_iconic_human_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_human_6x.bdf"
+      ]
+    },
+    "open_iconic_human_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_human_8x.bdf"
+      ]
+    },
+    "open_iconic_mime_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_mime_1x.bdf"
+      ]
+    },
+    "open_iconic_mime_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_mime_2x.bdf"
+      ]
+    },
+    "open_iconic_mime_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_mime_4x.bdf"
+      ]
+    },
+    "open_iconic_mime_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_mime_6x.bdf"
+      ]
+    },
+    "open_iconic_mime_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_mime_8x.bdf"
+      ]
+    },
+    "open_iconic_other_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_other_1x.bdf"
+      ]
+    },
+    "open_iconic_other_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_other_2x.bdf"
+      ]
+    },
+    "open_iconic_other_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_other_4x.bdf"
+      ]
+    },
+    "open_iconic_other_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_other_6x.bdf"
+      ]
+    },
+    "open_iconic_other_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_other_8x.bdf"
+      ]
+    },
+    "open_iconic_play_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_play_1x.bdf"
+      ]
+    },
+    "open_iconic_play_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_play_2x.bdf"
+      ]
+    },
+    "open_iconic_play_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_play_4x.bdf"
+      ]
+    },
+    "open_iconic_play_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_play_6x.bdf"
+      ]
+    },
+    "open_iconic_play_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_play_8x.bdf"
+      ]
+    },
+    "open_iconic_text_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_text_1x.bdf"
+      ]
+    },
+    "open_iconic_text_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_text_2x.bdf"
+      ]
+    },
+    "open_iconic_text_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_text_4x.bdf"
+      ]
+    },
+    "open_iconic_text_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_text_6x.bdf"
+      ]
+    },
+    "open_iconic_text_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_text_8x.bdf"
+      ]
+    },
+    "open_iconic_thing_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_thing_1x.bdf"
+      ]
+    },
+    "open_iconic_thing_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_thing_2x.bdf"
+      ]
+    },
+    "open_iconic_thing_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_thing_4x.bdf"
+      ]
+    },
+    "open_iconic_thing_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_thing_6x.bdf"
+      ]
+    },
+    "open_iconic_thing_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_thing_8x.bdf"
+      ]
+    },
+    "open_iconic_weather_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_weather_1x.bdf"
+      ]
+    },
+    "open_iconic_weather_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_weather_2x.bdf"
+      ]
+    },
+    "open_iconic_weather_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_weather_4x.bdf"
+      ]
+    },
+    "open_iconic_weather_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_weather_6x.bdf"
+      ]
+    },
+    "open_iconic_weather_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_weather_8x.bdf"
+      ]
+    },
+    "open_iconic_www_1x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_www_1x.bdf"
+      ]
+    },
+    "open_iconic_www_2x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_www_2x.bdf"
+      ]
+    },
+    "open_iconic_www_4x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_www_4x.bdf"
+      ]
+    },
+    "open_iconic_www_6x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_www_6x.bdf"
+      ]
+    },
+    "open_iconic_www_8x": {
+      "group": "fntgrpiconic",
+      "source_files": [
+        "open_iconic_www_8x.bdf"
+      ]
+    },
+    "ordinarybasis": {
+      "group": "fntgrpextant",
+      "source_files": [
+        "OrdinaryBasis.ttf"
+      ]
+    },
+    "osb18": {
+      "group": "fntgrpoldstandard",
+      "source_files": [
+        "OldStandard-Bold.ttf",
+        "OldStandard-Regular.ttf"
+      ]
+    },
+    "osb21": {
+      "group": "fntgrpoldstandard",
+      "source_files": [
+        "OldStandard-Bold.ttf",
+        "OldStandard-Regular.ttf"
+      ]
+    },
+    "osb26": {
+      "group": "fntgrpoldstandard",
+      "source_files": [
+        "OldStandard-Bold.ttf",
+        "OldStandard-Regular.ttf"
+      ]
+    },
+    "osb29": {
+      "group": "fntgrpoldstandard",
+      "source_files": [
+        "OldStandard-Bold.ttf",
+        "OldStandard-Regular.ttf"
+      ]
+    },
+    "osb35": {
+      "group": "fntgrpoldstandard",
+      "source_files": [
+        "OldStandard-Bold.ttf",
+        "OldStandard-Regular.ttf"
+      ]
+    },
+    "osb41": {
+      "group": "fntgrpoldstandard",
+      "source_files": [
+        "OldStandard-Bold.ttf",
+        "OldStandard-Regular.ttf"
+      ]
+    },
+    "oskool": {
+      "group": "fntgrptulamide",
+      "source_files": [
+        "Oskool.ttf"
+      ]
+    },
+    "osr18": {
+      "group": "fntgrpoldstandard",
+      "source_files": [
+        "OldStandard-Regular.ttf"
+      ]
+    },
+    "osr21": {
+      "group": "fntgrpoldstandard",
+      "source_files": [
+        "OldStandard-Regular.ttf"
+      ]
+    },
+    "osr26": {
+      "group": "fntgrpoldstandard",
+      "source_files": [
+        "OldStandard-Regular.ttf"
+      ]
+    },
+    "osr29": {
+      "group": "fntgrpoldstandard",
+      "source_files": [
+        "OldStandard-Regular.ttf"
+      ]
+    },
+    "osr35": {
+      "group": "fntgrpoldstandard",
+      "source_files": [
+        "OldStandard-Regular.ttf"
+      ]
+    },
+    "osr41": {
+      "group": "fntgrpoldstandard",
+      "source_files": [
+        "OldStandard-Regular.ttf"
+      ]
+    },
+    "p01type": {
+      "group": "fntgrpfontstruct",
+      "license": "CC-BY-3.0",
+      "source_files": [
+        "p01type.ttf"
+      ]
+    },
+    "pcsenior": {
+      "group": "fntgrpcodeman38",
+      "license": "Codeman38 permission notice: software bundling permitted; standalone commercial font collections prohibited",
+      "source_files": [
+        "pcsenior.ttf"
+      ]
+    },
+    "pearfont": {
+      "group": "fntgrpdafont",
+      "source_files": [
+        "pearfont.ttf"
+      ]
+    },
+    "pieceofcake_mel": {
+      "group": "fntgrpmistressellipsis",
+      "source_files": [
+        "PieceOfCake.ttf"
+      ]
+    },
+    "pixelle_micro": {
+      "group": "fntgrpfontstruct",
+      "source_files": [
+        "pixelle_micro.ttf"
+      ]
+    },
+    "pixelmordred": {
+      "group": "fntgrpextant",
+      "source_files": [
+        "PixelMordred.ttf"
+      ]
+    },
+    "pixelpoiiz": {
+      "group": "fntgrpdafont",
+      "source_files": [
+        "pixelpoiiz.ttf"
+      ]
+    },
+    "press_mel": {
+      "group": "fntgrpmistressellipsis",
+      "source_files": [
+        "Press.ttf"
+      ]
+    },
+    "pressstart2p": {
+      "group": "fntgrpcodeman38",
+      "source_files": [
+        "PressStart2P.ttf"
+      ]
+    },
+    "profont10": {
+      "group": "fntgrpprofont",
+      "source_files": [
+        "profont10.bdf"
+      ]
+    },
+    "profont11": {
+      "group": "fntgrpprofont",
+      "source_files": [
+        "profont11.bdf"
+      ]
+    },
+    "profont12": {
+      "group": "fntgrpprofont",
+      "source_files": [
+        "profont12.bdf"
+      ]
+    },
+    "profont15": {
+      "group": "fntgrpprofont",
+      "source_files": [
+        "profont15.bdf"
+      ]
+    },
+    "profont17": {
+      "group": "fntgrpprofont",
+      "source_files": [
+        "profont17.bdf"
+      ]
+    },
+    "profont22": {
+      "group": "fntgrpprofont",
+      "source_files": [
+        "profont22.bdf"
+      ]
+    },
+    "profont29": {
+      "group": "fntgrpprofont",
+      "source_files": [
+        "profont29.bdf"
+      ]
+    },
+    "prospero_bold_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "prospero_bold_nbp.ttf"
+      ]
+    },
+    "prospero_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "prospero_nbp.ttf"
+      ]
+    },
+    "px437wyse700a": {
+      "group": "fntgrpoldschoolpcfonts",
+      "source_files": [
+        "Px437_Wyse700a.ttf"
+      ]
+    },
+    "px437wyse700b": {
+      "group": "fntgrpoldschoolpcfonts",
+      "source_files": [
+        "Px437_Wyse700b.ttf"
+      ]
+    },
+    "pxplusibmcga": {
+      "group": "fntgrpoldschoolpcfonts",
+      "source_files": [
+        "PxPlus_IBM_CGA.ttf"
+      ]
+    },
+    "pxplusibmcgathin": {
+      "group": "fntgrpoldschoolpcfonts",
+      "source_files": [
+        "PxPlus_IBM_CGAthin.ttf"
+      ]
+    },
+    "pxplusibmvga8": {
+      "group": "fntgrpoldschoolpcfonts",
+      "source_files": [
+        "PxPlus_IBM_VGA8.ttf"
+      ]
+    },
+    "pxplusibmvga9": {
+      "group": "fntgrpoldschoolpcfonts",
+      "source_files": [
+        "PxPlus_IBM_VGA9.ttf"
+      ]
+    },
+    "pxplustandynewtv": {
+      "group": "fntgrpoldschoolpcfonts",
+      "source_files": [
+        "PxPlus_TandyNew_TV.ttf"
+      ]
+    },
+    "questgiver": {
+      "group": "fntgrpjosephknightcom",
+      "source_files": [
+        "Questgiver.ttf"
+      ]
+    },
+    "repress_mel": {
+      "group": "fntgrpmistressellipsis",
+      "source_files": [
+        "RePress.ttf"
+      ]
+    },
+    "robot_de_niro": {
+      "group": "fntgrpfontstruct",
+      "source_files": [
+        "robot_de_niro.ttf"
+      ]
+    },
+    "roentgen_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "RENT_0.ttf"
+      ]
+    },
+    "rosencrantz_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "ROSEN_0.ttf"
+      ]
+    },
+    "saikyosansbold8": {
+      "group": "fntgrpopengameart",
+      "source_files": [
+        "SaikyoSansBold-8.bdf"
+      ]
+    },
+    "samim_10": {
+      "group": "fntgrppersian",
+      "license": "OFL-1.1 plus Apache-2.0 Open Sans and retained Bitstream attribution",
+      "source_files": [
+        "Samim.ttf"
+      ]
+    },
+    "samim_12": {
+      "group": "fntgrppersian",
+      "license": "OFL-1.1 plus Apache-2.0 Open Sans and retained Bitstream attribution",
+      "source_files": [
+        "Samim.ttf"
+      ]
+    },
+    "samim_14": {
+      "group": "fntgrppersian",
+      "license": "OFL-1.1 plus Apache-2.0 Open Sans and retained Bitstream attribution",
+      "source_files": [
+        "Samim.ttf"
+      ]
+    },
+    "samim_16": {
+      "group": "fntgrppersian",
+      "license": "OFL-1.1 plus Apache-2.0 Open Sans and retained Bitstream attribution",
+      "source_files": [
+        "Samim.ttf"
+      ]
+    },
+    "samim_fd_10": {
+      "group": "fntgrppersian",
+      "license": "OFL-1.1 plus Apache-2.0 Open Sans and retained Bitstream attribution",
+      "source_files": [
+        "Samim-FD.ttf"
+      ]
+    },
+    "samim_fd_12": {
+      "group": "fntgrppersian",
+      "license": "OFL-1.1 plus Apache-2.0 Open Sans and retained Bitstream attribution",
+      "source_files": [
+        "Samim-FD.ttf"
+      ]
+    },
+    "samim_fd_14": {
+      "group": "fntgrppersian",
+      "license": "OFL-1.1 plus Apache-2.0 Open Sans and retained Bitstream attribution",
+      "source_files": [
+        "Samim-FD.ttf"
+      ]
+    },
+    "samim_fd_16": {
+      "group": "fntgrppersian",
+      "license": "OFL-1.1 plus Apache-2.0 Open Sans and retained Bitstream attribution",
+      "source_files": [
+        "Samim-FD.ttf"
+      ]
+    },
+    "sandyforest": {
+      "group": "fntgrpjaywright",
+      "source_files": [
+        "SandyForest.ttf"
+      ]
+    },
+    "secretaryhand": {
+      "group": "fntgrpextant",
+      "source_files": [
+        "SecretaryHand.ttf"
+      ]
+    },
+    "seraphimb1": {
+      "group": "fntgrpjosephknightcom",
+      "source_files": [
+        "Seraphimb1.ttf"
+      ]
+    },
+    "shylock_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "shylock_nbp.ttf"
+      ]
+    },
+    "siji": {
+      "group": "fntgrpsiji",
+      "source_files": [
+        "siji_with_6x10.bdf"
+      ]
+    },
+    "sirclive": {
+      "group": "fntgrpgilesbooth",
+      "source_files": [
+        "SirClive.ttf"
+      ]
+    },
+    "sirclivethebold": {
+      "group": "fntgrpgilesbooth",
+      "source_files": [
+        "SirClivetheBold.ttf"
+      ]
+    },
+    "smart_patrol_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "smart_patrol_nbp.ttf"
+      ]
+    },
+    "squirrel": {
+      "group": "fntgrpangel",
+      "source_files": [
+        "Squirrel.ttf"
+      ]
+    },
+    "sticker_mel": {
+      "group": "fntgrpmistressellipsis",
+      "source_files": [
+        "Sticker.ttf"
+      ]
+    },
+    "synchronizer_nbp": {
+      "group": "fntgrpnbp",
+      "source_files": [
+        "synchronizer_nbp.ttf"
+      ]
+    },
+    "t0_11": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-11-uni.bdf"
+      ]
+    },
+    "t0_11b": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-11b-uni.bdf"
+      ]
+    },
+    "t0_12": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-12-uni.bdf"
+      ]
+    },
+    "t0_12b": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-12b-uni.bdf"
+      ]
+    },
+    "t0_13": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-13-uni.bdf"
+      ]
+    },
+    "t0_13b": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-13b-uni.bdf"
+      ]
+    },
+    "t0_14": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-14-uni.bdf"
+      ]
+    },
+    "t0_14b": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-14b-uni.bdf"
+      ]
+    },
+    "t0_15": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-15-uni.bdf"
+      ]
+    },
+    "t0_15b": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-15b-uni.bdf"
+      ]
+    },
+    "t0_16": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-16-uni.bdf"
+      ]
+    },
+    "t0_16b": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-16b-uni.bdf"
+      ]
+    },
+    "t0_17": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-17-uni.bdf"
+      ]
+    },
+    "t0_17b": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-17b-uni.bdf"
+      ]
+    },
+    "t0_18": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-18-uni.bdf"
+      ]
+    },
+    "t0_18b": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-18b-uni.bdf"
+      ]
+    },
+    "t0_22": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-22-uni.bdf"
+      ]
+    },
+    "t0_22b": {
+      "group": "fntgrpttyp0",
+      "source_files": [
+        "t0-22b-uni.bdf"
+      ]
+    },
+    "tallpix": {
+      "group": "fntgrpbitfontmaker2",
+      "source_files": [
+        "Tallpix.ttf"
+      ]
+    },
+    "tenfatguys": {
+      "group": "fntgrpgeoff",
+      "source_files": [
+        "TenFatGuys.ttf"
+      ]
+    },
+    "tenstamps": {
+      "group": "fntgrpgeoff",
+      "source_files": [
+        "TenStamps.ttf"
+      ]
+    },
+    "tenthinguys": {
+      "group": "fntgrpgeoff",
+      "source_files": [
+        "TenThinGuys.ttf"
+      ]
+    },
+    "tenthinnerguys": {
+      "group": "fntgrpgeoff",
+      "source_files": [
+        "TenThinnerGuys.ttf"
+      ]
+    },
+    "timB08": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "timB08.bdf"
+      ]
+    },
+    "timB10": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "timB10.bdf"
+      ]
+    },
+    "timB12": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "timB12.bdf"
+      ]
+    },
+    "timB14": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "timB14.bdf"
+      ]
+    },
+    "timB18": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "timB18.bdf"
+      ]
+    },
+    "timB24": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "timB24.bdf"
+      ]
+    },
+    "timR08": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "timR08.bdf"
+      ]
+    },
+    "timR10": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "timR10.bdf"
+      ]
+    },
+    "timR12": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "timR12.bdf"
+      ]
+    },
+    "timR14": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "timR14.bdf"
+      ]
+    },
+    "timR18": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "timR18.bdf"
+      ]
+    },
+    "timR24": {
+      "group": "fntgrpadobex11",
+      "source_files": [
+        "timR24.bdf"
+      ]
+    },
+    "tinytim": {
+      "group": "fntgrptulamide",
+      "source_files": [
+        "TinyTim.ttf"
+      ]
+    },
+    "tom_thumb_4x6": {
+      "group": "fntgrptomthumb",
+      "source_files": [
+        "tom-thumb.bdf"
+      ]
+    },
+    "tooseornament": {
+      "group": "fntgrptulamide",
+      "source_files": [
+        "TooseOrnament.ttf"
+      ]
+    },
+    "torussansbold8": {
+      "group": "fntgrpopengameart",
+      "source_files": [
+        "TorusSansBold-8.bdf"
+      ]
+    },
+    "trixel_square": {
+      "group": "fntgrpfontstruct",
+      "source_files": [
+        "trixel_square.ttf"
+      ]
+    },
+    "twelvedings": {
+      "group": "fntgrpgeoff",
+      "source_files": [
+        "TwelveDings.ttf"
+      ]
+    },
+    "u8glib_4": {
+      "group": "fntgrpu8g",
+      "source_files": [
+        "u8glib_4.bdf"
+      ]
+    },
+    "victoriabold8": {
+      "group": "fntgrpopengameart",
+      "source_files": [
+        "VictoriaBold-8.bdf"
+      ]
+    },
+    "victoriamedium8": {
+      "group": "fntgrpopengameart",
+      "source_files": [
+        "VictoriaMedium-8.bdf"
+      ]
+    }
+  },
+  "source_map_revision": "4a3cadf68afbe3f4d2d415b2517d30c95e40b82c"
+}
